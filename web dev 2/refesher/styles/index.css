@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: .2rem;
+    margin: 0;
+    font-family: 'lato';
+    font-weight: 600;
+    color:white;
+    box-sizing: border-box;
+}
+body{
+    background-color: #471FA9 ;
+    text-align: center;
+}
+
+.headder{
+    text-align: center;
+}
+.img1{
+    width: 10rem;
+    position: relative;
+
+}
+.img2{
+    width: 10rem;
+    position: relative ;
+}
+.img3{
+    width: 10rem;
+    position: relative ;
+}
+.img-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    height: 30rem;
+    padding: .5rem;
+}
+.rock-bg{
+    background-color: black;
+    padding: 2rem;
+    border: black;
+    border-radius: 1.5rem;
+    width: 10vw;
+    margin-left: 35%;
+    aspect-ratio: 1;
+}
+.rap-bg{
+    background-color: darkmagenta;
+    padding: 2rem;
+    border: black;
+    border-radius: 1.5rem;
+    width: 10vw;
+}
+.country-bg{
+    background-color: darkblue;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 10vw;
+    aspect-ratio: 1;
+}
+.music {
+    display: flex;
+    text-align: center;
+}
+.artist{
+    font-size: 2rem;
+}
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.middle{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.middle img{
+    width: 20rem;
+}
+.rpsBtn{
+    color:white;
+    background-color: rgb(2, 2, 128);
+    border: none;
+    padding: .25rem;
+}
